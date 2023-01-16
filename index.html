@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src= "main.js" defer></script>
+
+    <title>pasalabra</title>
+</head>
+
+<body>
+
+    <section class = "game">
+        <div class = "started" >
+        <h1>BIENVENIDOS AL JUEGO DE PASAPALABRAS DE SKYLAB CODERS ACADEMY!</h1>
+    
+            <p class = "instructions" >Basado en el famoso concurso de television Pasapalabra de Telecinco, las normas son sencillas:</p>
+                Se mostraran unas definiciones en pantalla y el usuario debera responder con la palabra a la que corresponden. El usuario tiene la opcion de decir Pasapalabra y dejar la definicion para mas adelante.
+                El programa es sensible a la acentuacion, asi que debe introducir la palabra sin tilde. Es posible utilizar la tecla ENTER para enviar la palabra y el SPACE para hacer pasapalabras. </p>
+            <button class = "EMPEZAR" >EMPEZAR</button>
+    
+        </div>
+
+        <div class = "text-container" hidden>
+            <h1 class="title">pasapalabra</h1>
+
+            <p class = "question" ></p>
+            <p class = "gameOver" hidden></p>
+            <ul class = "ranking" hidden></ul>
+
+            <input type="text-box" class ="user-Answer" placeholder="Respuesta"></input>
+
+            <div class = "control-container" hidden>
+                <button class = "pasapalabra button" >Pasapalabra</button>
+                <button class = "enviar button" >Enviar</button> 
+                <button class = "playAgain button" hidden>¿Seguir jugando?</button>
+            </div>
+
+        </div>
+
+        <div class = "counters">
+            <p class = "stopwatch" hidden>120</p>
+            <p class = "points" hidden></p>
+        </div>
+
+    <div class = "circle-container" hidden>
+
+            <ul class="circle">
+                <li class="item 1 letter neutral">A</li>
+                <li class="item 2 letter neutral">B</li>
+                <li class="item 3 letter neutral">C</li>
+                <li class="item 4 letter neutral">D</li>
+                <li class="item 5 letter neutral">E</li>
+                <li class="item 6 letter neutral">F</li>
+                <li class="item 7 letter neutral">G</li>
+                <li class="item 8 letter neutral">H</li>
+                <li class="item 9 letter neutral">I</li>
+                <li class="item 10 letter neutral">J</li>
+                <li class="item 11 letter neutral">K</li>
+                <li class="item 12 letter neutral">L</li>
+                <li class="item 13 letter neutral">M</li>
+                <li class="item 14 letter neutral">N</li>
+                <li class="item 15 letter neutral">Ñ</li>
+                <li class="item 16 letter neutral">O</li>
+                <li class="item 17 letter neutral">P</li>
+                <li class="item 18 letter neutral">Q</li>
+                <li class="item 19 letter neutral">R</li>
+                <li class="item 20 letter neutral">S</li>
+                <li class="item 21 letter neutral">T</li>
+                <li class="item 22 letter neutral">U</li>
+                <li class="item 23 letter neutral">V</li>
+                <li class="item 24 letter neutral">W</li>
+                <li class="item 25 letter neutral">X</li>
+                <li class="item 26 letter neutral">Y</li>
+                <li class="item 27 letter neutral">Z</li>
+            </ul>
+    </div>
+
+    </body>
